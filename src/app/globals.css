@@ -8,6 +8,24 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('/Inter-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('/Inter-SemiBold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Inter-Light';
+  src: url('/Inter-Light.ttf') format('truetype');
+  font-weight: lighter;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -17,17 +35,64 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: #323232;
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    ),
+    rgb(var(--background-end-rgb));
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+
+h1, b, strong, span {
+  font-family: 'Inter-Bold', sans-serif;
+  font-weight: bold;
 }
+
+h2, a {
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+}
+
+p{
+  font-family: 'Inter-Light', sans-serif;
+  font-weight: lighter;
+}
+
+.text-default-grey {
+  color: #868585;
+}
+
+.text-default-black{
+  color: #323232;
+}
+
+h1,h2, p{
+  letter-spacing: -0.04em;
+}
+
+h1{
+  line-height: 77px;
+}
+
+h2{
+  line-height: 29px;
+}
+
+p{
+  line-height: 19px;
+  color: black;
+}
+
+.bg-primary{
+  background-color: #323232;
+}
+
+.text-link{
+  color: black;
+  font-weight: bold;
+}
+
