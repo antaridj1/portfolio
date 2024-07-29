@@ -1,10 +1,12 @@
 import Link from "next/link";
+import { DoubleColorSubtitle } from "./Typography";
 
 export default function Work({work}){
     return (
         <>
         <Link href={{
-            pathname: "/detail/"+ work.id,
+            pathname: `/detail/${work.id}`,
+
         }}>
             <div className="relative mb-5">
                 <div className="absolute z-10 m-3">
@@ -20,10 +22,9 @@ export default function Work({work}){
                     <img src={'/'+work.thumbnail} width={450} height={450} className="flex-initial object-cover object-center w-full h-full rounded-xl"/>
                 </div>
             </div>
-            <h2 className="text-title-sm">
-                <span className="text-default-black">{work.title}</span>
-                <span className="text-default-grey"> - {work.subtitle}</span>
-            </h2>
+            <DoubleColorSubtitle
+                blackText={work.title}
+                grayText={'- '+ work.subtitle} />
         </Link>
         </>
     );

@@ -16,6 +16,7 @@ module.exports = {
         'link': '12px',
         'normal': '16px',
         'title-sm': '24px',
+        'title-md': '36px',
         'title-xl': '64px'
       },
     },
