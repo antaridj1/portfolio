@@ -46,7 +46,7 @@ const DoubleColorSubtitle = ({blackText, grayText, isSaparate = false}) => {
 
 const Subtitle = ({children}) => {
     return (
-        <h2 className="text-[20px] leading-6 md:leading-tight md:text-title-sm my-8 max-w-5xl text-center md:text-left">
+        <h2 className="text-[20px] leading-6 md:leading-tight md:text-title-sm my-8 max-w-5xl text-center md:text-left animate-fade-right animate-once">
             {children}
         </h2>
     );
@@ -54,7 +54,7 @@ const Subtitle = ({children}) => {
 
 const SubtitleBold = ({children}) => {
     return (
-        <h2 className="text-[20px] text-center font-bold leading-6 md:leading-tight md:text-title-sm my-4 max-w-5xl text-center md:text-left">
+        <h2 className="text-[20px] text-center font-bold leading-6 md:leading-tight md:text-title-sm my-4 max-w-5xl text-center md:text-left animate-fade-right animate-once">
             {children}
         </h2>
     );
@@ -62,7 +62,7 @@ const SubtitleBold = ({children}) => {
 
 const Text = ({children}) => {
     return (
-        <p className="mb-3">
+        <p className="mb-3 animate-fade-right animate-once">
             {children}
         </p>
     );
@@ -70,7 +70,7 @@ const Text = ({children}) => {
 
 const TextExtraSmall = ({children}) => {
     return (
-        <p className="mb-3 text-[12px]">
+        <p className="mb-3 text-[12px] animate-fade-right animate-once">
             {children}
         </p>
     );

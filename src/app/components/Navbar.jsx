@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <>
-		<div className="fixed w-full p-2 top-0 z-50 start-0">
+		<div className="fixed w-full p-2 top-0 z-50 start-0 animate-fade animate-once">
 			<nav className="bg-white w-full px-2 md:px-7  rounded-lg ">
 				<div className="flex flex-wrap items-center justify-between py-4 px-2">
 					<a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">

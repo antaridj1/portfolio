@@ -40,15 +40,15 @@ function DetailPage(){
 				</div>
 
 				<Section id="detail">
-				<Detail title={'Overview'}>
-					{work.detail.overview}
-				</Detail>
-				<Detail title={'Challenges'}>
-					{work.detail.challenges}
-				</Detail>
-				<Detail title={'Results'}>
-					{work.detail.results}
-				</Detail>
+					<Detail title={'Overview'}>
+						{work.detail.overview}
+					</Detail>
+					<Detail title={'Challenges'}>
+						{work.detail.challenges}
+					</Detail>
+					<Detail title={'Results'}>
+						{work.detail.results}
+					</Detail>
 				</Section>
 			
         </>

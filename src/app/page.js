@@ -34,7 +34,7 @@ export default function Home() {
 							</svg>
 						</LinkIconPrimary>
 					</div>
-					<div className="flex justify-center md:justify-end items-end mt-8">
+					<div className="flex justify-center md:justify-end items-end mt-8 animate-fade-left animate-once">
 						<ul>
 							<li className="flex items-center mb-2 justify-center md:justify-end">
 								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mr-2">
