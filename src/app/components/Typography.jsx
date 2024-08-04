@@ -54,7 +54,7 @@ const Subtitle = ({children}) => {
 
 const SubtitleBold = ({children}) => {
     return (
-        <h2 className="text-[20px] text-center font-bold leading-6 md:leading-tight md:text-title-sm my-8 max-w-5xl text-center md:text-left">
+        <h2 className="text-[20px] text-center font-bold leading-6 md:leading-tight md:text-title-sm my-4 max-w-5xl text-center md:text-left">
             {children}
         </h2>
     );

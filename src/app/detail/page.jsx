@@ -17,7 +17,7 @@ function DetailPage(){
     return (
         <>
            <SectionDetail id="title-work">
-				<div className="my-12">
+				<div className="mt-24">
 					<Breadcrumb/>
 					<DoubleColorTitle
 						blackText={work.title}

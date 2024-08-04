@@ -7,7 +7,7 @@ const Breadcrumb = () => {
 	const workId = searchParams.get('id');
     const work = dataWorks.find((datawork) => datawork.id == workId)
     return (
-        <nav class="flex px-2" aria-label="Breadcrumb">
+        <nav class="flex px-2 my-5 justify-center md:justify-start" aria-label="Breadcrumb">
             <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
                 <li class="inline-flex items-center">
                     <a href="/" class="inline-flex items-center text-normal font-medium text-default-black hover:text-gray-400 dark:text-gray-400 dark:hover:text-white">

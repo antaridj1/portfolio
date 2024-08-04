@@ -5,14 +5,14 @@ import { DoubleColorFooter, SubtitleBold, Text, TextExtraSmall } from "./Typogra
 export default function Footer(){
     return (
         <>
-        <div className="h-screen p-3 flex flex-col">
-            <div className="p-5 bg-[#eeeeee] rounded-lg flex flex-col flex-1">
+        <div className="p-2 flex flex-col">
+            <div className="p-3 bg-[#eeeeee] rounded-lg flex flex-col flex-1">
                 <div className="flex-1">
                     <DoubleColorFooter 
                         blackText={'Get in touch'}
                         grayText={'with me'} 
                     />
-                    <div className="mt-10 flex-1 flex flex-col">
+                    <div className="mt-5 flex-1 flex flex-col">
                         <div className="flex flex-col md:flex-row flex-1">
                             <div className="flex-1 p-3 text-center md:text-left">
                                 <SubtitleBold>
