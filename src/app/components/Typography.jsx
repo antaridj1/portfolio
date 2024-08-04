@@ -20,7 +20,7 @@ const DoubleColorFooter = ({blackText, grayText, isSaparate = false}) => {
 
 const Title = ({text}) => {
     return (
-        <h1 className="text-title-xl text-default-black text-center md:text-left mb-10">
+        <h1 className="text-5xl tracking-tighter animate-fade-right animate-once font-bold text-center leading-[58px] md:text-left md:leading-tight md:text-title-xl max-w-5xl mb-10">
             {text}
         </h1>
     );
@@ -36,7 +36,7 @@ const TitleMedium = ({text}) => {
 
 const DoubleColorSubtitle = ({blackText, grayText, isSaparate = false}) => {
     return (
-        <h2 className="text-title-sm text-center md:text-left">
+        <h2 className="text-title-sm text-center md:text-left mb-10">
             <span className="text-default-black">{blackText}</span>
             {isSaparate && <br></br>}
             <span className="text-default-grey">{grayText}</span>
