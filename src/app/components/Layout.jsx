@@ -1,6 +1,6 @@
-const Section = ({ children, ...props }) => {
+const Section = ({ className, id, children }) => {
     return (
-        <section className="h-screen container-xl px-5 md:px-10" {...props}>
+        <section className={`container-2xl p-5 md:p-10 ${className}`} id={id}>
             {children}
         </section>
     );
@@ -8,7 +8,7 @@ const Section = ({ children, ...props }) => {
 
 const SectionDetail = ({ children, ...props }) => {
     return (
-        <section className="container-xl px-5 md:px-10" {...props}>
+        <section className="container-2xl px-5 md:px-10" {...props}>
             {children}
         </section>
     );

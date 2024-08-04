@@ -1,15 +1,15 @@
-const LinkIconPrimary = ({text, children}) => {
+const LinkIconPrimary = ({text, href, className, children}) => {
     return (
-        <a className="text-white bg-primary border inline-flex focus:outline-none hover:text-gray-400 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-sm px-5 py-4 m-1 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:text-gray-800 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+        <a href={href} className={`${className} text-normal w-full md:w-40 inline-flex justify-center text-white bg-primary border hover:text-gray-400 font-bold rounded-full text-sm px-5 py-7 md:p-4 my-2 md:mx-1`}>
             {text}
             {children}
         </a>
     );
 }
 
-const LinkIconSecondary = ({text, children}) => {
+const LinkIconSecondary = ({text, href, children}) => {
     return (
-        <a className="text-gray-900 bg-white border border-gray-900 inline-flex focus:outline-none hover:text-gray-500 focus:ring-4 focus:ring-gray-100 font-bold rounded-full text-sm px-5 py-4 m-1 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:text-gray-800 dark:hover:border-gray-600 dark:focus:ring-gray-700">
+        <a href={href} className="text-normal w-full md:w-40 inline-flex justify-center text-gray-900 bg-transparent border border-gray-900 hover:text-gray-500 font-bold rounded-full text-sm px-5 py-7 my-2 md:p-4 md:mx-1">
             {text}
             {children}
         </a>

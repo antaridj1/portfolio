@@ -4,10 +4,12 @@ import { DoubleColorSubtitle } from "./Typography";
 export default function Work({work}){
     return (
         <>
-        <Link href={{
-            pathname: `/detail/${work.id}`,
-
-        }}>
+        <Link 
+            href={{
+                pathname: '/detail',
+                query: { id: work.id },
+            }}
+        >
             <div className="relative mb-5">
                 <div className="absolute z-10 m-3">
                     <span class="bg-white text-link mr-2 px-3 py-2.5 rounded-full">
@@ -24,7 +26,7 @@ export default function Work({work}){
             </div>
             <DoubleColorSubtitle
                 blackText={work.title}
-                grayText={'- '+ work.subtitle} />
+                grayText={' - '+ work.subtitle} />
         </Link>
         </>
     );

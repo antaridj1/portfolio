@@ -10,8 +10,8 @@ export default function Navbar() {
 
   return (
     <>
-		<div className="px-2 md:px-10">
-			<nav className="bg-white w-full z-20 top-0 start-0">
+		<div className="container-2xl px-2 md:px-10">
+			<nav className="bg-white fixed w-full z-20 top-0 start-0">
 				<div className="flex flex-wrap items-center justify-between py-4 px-2">
 					<a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
 						<span className="self-center">Antari Dwijayanti (A - D)</span>
