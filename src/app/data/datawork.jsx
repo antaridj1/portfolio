@@ -21,10 +21,10 @@ const dataWorks = [
       workType: 'Develop',
       projectType: "Web Development",
       thumbnail: "menumate_thumb.png",
-      link: "https://appkey.shop/menu-web-envato/menu?tn=12",
+      link: "https://www.codester.com/items/preview/42501/menumate-the-qr-code-menu-ordering-system",
       image: "menumate.png",
       detail: {
-        overview: "Menu Mate is a web application for restaurants that want to offer a QR code menu to their customers. Customers simply scan the QR code on the table and are redirected to the website, where they can browse the menu and order food directly. This is an internal project by APPKEY, available for purchase on Codester.<br /> https://www.codester.com/items/42501/menumate-the-qr-code-menu-ordering-system",
+        overview: "Menu Mate is a web application for restaurants that want to offer a QR code menu to their customers. Customers simply scan the QR code on the table and are redirected to the website, where they can browse the menu and order food directly. This is an internal project by APPKEY, available for purchase on Codester.",
         challenges: "In this project, I was responsible for handling the frontend development. I had to mplemented all the details and interactive features to precisely match the design provided by the designer while also integrating APIs from the backend developer. Since the website displays numerous products with large images, enhancing its performance was a key challenge. Additionally, as the website is primarily used by customers on their smartphones, ensuring it was fully responsive was essential.",
         results: "MenuMate was developed using tools such as HTML, CSS, Bootstrap, jQuery, PHP, and Laravel. I completed the frontend development in less than three weeks and chose to use Laravel Blade for the development. To enhance performance, I utilized jQuery to fetch data asynchronously from the API. For the design, I used Bootstrap and customized it with plain CSS to match the provided design, ensuring it was responsive on smartphones, tablets, and PC screens."
       }
