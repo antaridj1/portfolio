@@ -6,11 +6,14 @@ import Breadcrumb from "./components/Breadcrumb";
 import { useSearchParams } from "next/navigation";
 import Detail from "./components/Detail";
 import dataWorks from "../data/datawork";
+import { Suspense } from "react";
 
-export default function Page(){
+function DetailPage(){
 	const searchParams = useSearchParams();
 	const workId = searchParams.get('id');
     const work = dataWorks.find((datawork) => datawork.id == workId)
+
+	
     return (
         <>
            <SectionDetail id="title-work">
@@ -51,3 +54,11 @@ export default function Page(){
         </>
     );
 }
+
+export default function Page() {
+	return (
+	  <Suspense fallback={<div>Loading...</div>}>
+		<DetailPage />
+	  </Suspense>
+	);
+  }
