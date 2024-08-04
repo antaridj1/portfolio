@@ -23,7 +23,7 @@ export default function Footer(){
                                     Want to hire me? I’d love to walk in for an interview!
                                 </Text>
                                 <div className="mt-10">
-                                    <LinkIconSecondary text={'View Resume'}>
+                                    <LinkIconSecondary href={'Antari_Dwijayanti_Resume_Web_Developer.pdf'} text={'View Resume'}>
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-5 ml-1">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                                         </svg>
@@ -38,7 +38,7 @@ export default function Footer(){
                                     </SubtitleBold>
                                     <ul className="list-disc pl-5">
                                         <li className="mb-2">
-                                            <a href="https://www.linkedin.com/in/antari-dwijayanti-3a3378215/" className="flex items-center justify-center md:justify-start text-gray-700 hover:underline hover:text-black" target="_blank" rel="noopener noreferrer">
+                                            <a href="https://www.linkedin.com/in/antaridwijayanti/" className="flex items-center justify-center md:justify-start text-gray-700 hover:underline hover:text-black" target="_blank" rel="noopener noreferrer">
                                                 LinkedIn
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-5 ml-2">
                                                     <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
