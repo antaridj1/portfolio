@@ -19,8 +19,7 @@ export default function Footer(){
                                     Let's work together
                                 </SubtitleBold>
                                 <Text>
-                                    Available for creating design and developing your dream website. Already have a design? I’ll make your dream design come true.
-                                    Want to hire me? I’d love to walk in for an interview!
+                                    Available to design and develop your dream website. If you already have a design, I’ll bring it to life. Interested in hiring me? I’d be delighted to discuss how I can contribute to your project in an interview!
                                 </Text>
                                 <div className="mt-10">
                                     <LinkIconSecondary href={'Antari_Dwijayanti_Resume_Web_Developer.pdf'} text={'View Resume'}>
