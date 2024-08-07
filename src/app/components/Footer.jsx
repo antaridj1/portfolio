@@ -22,7 +22,7 @@ export default function Footer(){
                                     Available to design and develop your dream website. If you already have a design, I’ll bring it to life. Interested in hiring me? I’d be delighted to discuss how I can contribute to your project in an interview!
                                 </Text>
                                 <div className="mt-10">
-                                    <LinkIconSecondary href={'Antari_Dwijayanti_Resume_Web_Developer.pdf'} text={'View Resume'}>
+                                    <LinkIconSecondary href={'Antari_Dwijayanti_Web_Developer_Resume.pdf'} text={'View Resume'}>
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-5 ml-1">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                                         </svg>
