@@ -14,6 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href={'/AD-1@3x.png'} />
+        {/* You can add more meta tags or link tags here */}
+      </Head>
       <body className={inter.className}>
         <Navbar/>
         {children}

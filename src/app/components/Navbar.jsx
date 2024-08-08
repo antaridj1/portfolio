@@ -15,9 +15,16 @@ export default function Navbar() {
 			<nav className="bg-white w-full px-2 md:px-7  rounded-lg ">
 				<div className="flex flex-wrap items-center justify-between py-4 px-2">
 					<a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-						<span className="self-center">Antari Dwijayanti</span>
+						<img src={'AD-2.svg'} className="w-10" alt="logo" />
+						<span className="self-center hidden md:block">
+								Antari Dwijayanti
+						</span>
 					</a>
-					
+					<a href="/" className="flex items-center space-x-3 rtl:space-x-reverse block md:hidden">
+						<span className="self-center">
+								Antari Dwijayanti
+						</span>
+					</a>
 					<div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
 						<LinkIconSecondary href={'mailto:antaridwijayanti@gmail.com'} text={'Contact'} className="hidden md:inline-flex">
 							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-5 ml-2">
